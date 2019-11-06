@@ -2,12 +2,13 @@
 This Clover config work for Lenovo Ideapad 730s
 # Credits
 # What is NOT WORKING
-* WiFi + Bluetooth
+* WiFi + Bluetooth (replaced with USB wifi)
 * Fingerprint (disabled)
 # What is WORKING
-* PS2 Keyboard  [VoodooPS2Controller.kext](https://github.com/alexandred/VoodooI2C/releases/latest)
-* TouchPad work with SSDT fix, [VoodooI2C.kext](https://github.com/alexandred/VoodooI2C/releases/latest). 
+* PS2 Keyboard, with brightness key fixed, [VoodooPS2Controller.kext](https://github.com/alexandred/VoodooI2C/releases/latest)
+* TouchPad (with SSDT fix), [VoodooI2C.kext](https://github.com/alexandred/VoodooI2C/releases/latest). 
 * Battery and cpu sensor, [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases/latest). 
+* Native Power Management
 * USB [USBInjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads)
 * SSD Trim by Clover patch 
 * Camera works fine
